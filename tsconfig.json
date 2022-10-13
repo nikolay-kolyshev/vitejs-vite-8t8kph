@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -14,8 +15,17 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "composite": true,
+    /*"paths": {
+      "@": ["src"],
+      "@*//*": ["src*//*"],
+      "@assets": ["src/assets"],
+      "@assets*//*": ["src/assets*//*"],
+      "@styles": ["src/styles"],
+      "@styles*//*": ["src/styles*//*"]
+    },*/
+    "types": ["vite/client"]
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src/**/*", "vite.config.ts"],
 }

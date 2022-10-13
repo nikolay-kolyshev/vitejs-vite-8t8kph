@@ -1,22 +1,28 @@
 {
-  "name": "vite-react-typescript-starter",
+  "name": "lab-1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "install-all": "npm ci"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "styled-normalize": "8.0.7",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.1.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.1.6"
+    "@types/node": "18.8.4",
+    "@types/react": "18.0.21",
+    "@types/react-dom": "18.0.6",
+    "@types/styled-components": "5.1.26",
+    "@vitejs/plugin-legacy": "2.2.0",
+    "@vitejs/plugin-react": "2.1.0",
+    "styled-components": "5.3.6",
+    "typescript": "4.8.4",
+    "vite": "3.1.7"
   }
 }
