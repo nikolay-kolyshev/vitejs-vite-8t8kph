@@ -1,12 +1,10 @@
 import {StyledProvider} from "./styles/StyledProvider";
-import {Header} from "./UI-components/Header/Header";
+import {NavigationRoutes} from "./components/common/NavigationRoutes/NavigationRoutes";
 
 function App() {
   return (
       <StyledProvider>
-          <div>
-              <Header/>
-          </div>
+          <NavigationRoutes/>
       </StyledProvider>
   )
 }

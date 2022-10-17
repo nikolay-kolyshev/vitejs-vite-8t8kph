@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {deviceNavigation} from "../../styles/devices";
+import {deviceNavigation} from "../../../styles/devices";
 
 const HeaderZIndex = 100000;
 
@@ -13,18 +13,26 @@ const Wrapper = styled.header`
   
     height: 103px;
   
-    ${deviceNavigation.mobile} {
+    ${deviceNavigation.tablet} {
         height: 72px;
     }
+    
+    display: grid;
+    align-items: center;
+    padding: 0 20px;
+
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 `;
 
 const Title = styled.h1`
     font-weight: 500;
     font-size: 36px;
 
-    ${deviceNavigation.mobile} {
+    ${deviceNavigation.tablet} {
       font-size: 20px;
     }
+  
+    color: ${({theme}) => theme.colors.contrast};
 `
 
 export const Styled = {
