@@ -1,3 +1,14 @@
-# vitejs-vite-8t8kph
+# Лабы UI/UX
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/vitejs-vite-8t8kph)
+## Установка зависимостей
+
+1. Установить [Node.js](https://nodejs.org/en/) (версия 16+)
+2. Запустить команду `npm run install-all` в корне проекта
+
+## Запуск проекта
+
+1. Запустить команду `npm run start` в корне проекта
+
+## Билд проекта
+
+1. Запустить команду `npm run build` в корне проекта
